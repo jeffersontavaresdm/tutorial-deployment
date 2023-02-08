@@ -9,24 +9,25 @@ FROM nginx:alpine
 # Copie o arquivo de configuração personalizado para o servidor Nginx
 COPY nginx.conf /etc/nginx/nginx.conf
 
+# Esta linha está definindo a imagem base a ser utilizada para construir a imagem Docker.
+#
+# A tag "node:14-alpine" indica que a imagem base será a versão 14 do Node.js baseada na imagem Alpine,
+# que é uma imagem Linux leve e compacta.
+FROM node:14-alpine
+
 # Define o diretório de trabalho como "/app"
 WORKDIR /app
 
 # Esta linha de comando "COPY" instrui o Docker a copiar o arquivo "package.json"
 # do host para o diretório atual (indicado pelo ponto ".") do contêiner Docker.
 # Isso significa que o arquivo será colocado na pasta raiz do contêiner, a partir da qual o resto do aplicativo pode acessá-lo.
-COPY package.json .
-
-# Este comando usa o comando apk para instalar o pacote nodejs e npm na imagem Alpine base.
-#
-# A opção "--no-cache" é usada para evitar a manutenção de cache desnecessária.
-RUN apk add --no-cache nodejs npm
+COPY package.json ./
 
 # Instala as dependencias
 RUN npm install
 
 # Copie o código-fonte do React para o container
-COPY . .
+COPY ./ ./
 
 # Construa o projeto React
 RUN npm run build
@@ -46,7 +47,7 @@ RUN rm -rf /usr/share/nginx/html/*
 #
 # Ao copiar os arquivos da pasta "build" para este diretório,
 # você está preparando o Nginx para servir as páginas web que você acabou de copiar.
-COPY build /usr/share/nginx/html
+COPY /build /usr/share/nginx/html
 
 # Expõe a porta 80 para que possa ser acessada externamente
 EXPOSE 80
