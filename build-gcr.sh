@@ -2,6 +2,10 @@
 
 # Script para ser utilizado na máquina local para a criação da imagem e armazenar a mesma em um registry (Docker Hub).
 
+rm -rf node_modules build
+
+npm cache clean --force
+
 # Instala as dependências do projeto, listadas no arquivo package.json.
 npm install
 

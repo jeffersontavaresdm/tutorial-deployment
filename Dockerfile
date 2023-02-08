@@ -22,8 +22,19 @@ COPY package.json .
 # A opção "--no-cache" é usada para evitar a manutenção de cache desnecessária.
 RUN apk add --no-cache nodejs npm
 
-# Instala as dependencias
+# Este comando instala o pacote "npm-check-updates" globalmente no sistema.
+# Este pacote fornece uma maneira de verificar se há atualizações disponíveis para as dependências listadas
+# no arquivo package.json.
+RUN npm install -g npm-check-updates
+
+# Este comando executa a ferramenta "npm-check-updates" para verificar se há atualizações disponíveis para as dependências.
+# O parâmetro "-u" indica que as versões das dependências devem ser atualizadas no arquivo package.json.
+RUN ncu -u
+
+# Este comando instala as dependências listadas no arquivo package.json.
+# Isso garante que todas as dependências necessárias estejam disponíveis para o projeto.
 RUN npm install
+
 
 # Copie o código-fonte do React para o container
 COPY . .

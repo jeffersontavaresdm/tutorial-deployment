@@ -1,5 +1,5 @@
 {
-  "name": "deploy-tutorial-aws-2",
+  "name": "deploy-aws-gcr-tutorial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
