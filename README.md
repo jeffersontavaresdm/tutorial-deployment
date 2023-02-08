@@ -1,16 +1,16 @@
 <div style="width: 100%; height: 100%" >
   <h1 align="center" >
-    Tutorial de Deploy simples
+    Tutorial: Deployment em uma máquina EC2 da AWS
   </h1 >
   <br/ >
   <div style="width: 80%; margin-top: 100px; margin-left: 200px" >
-    <h3>No tutorial será mostrado:</h3>
+    <h3>O tutorial mostra como fazer um deployment prático utilizando:</h3>
     <ul>
       <li>
-        <b>Aplicação:</b> React
+        <b>Servidor:</b> NGINX
       </li>
       <li>
-        <b>Servidor:</b> NGINX
+        <b>Aplicação:</b> React
       </li>
       <li>
         <b>Maquina:</b> EC2 (<b>AWS</b>)
@@ -72,7 +72,10 @@
       <li >sudo docker pull [usuario/repositorio]</li >
       <li >sudo docker run -p [porta-para-acesso]:[porta-exposta] [usuario/repositorio]</li >
     </ul >
-    <span >6: Para verificar: [http://[endereço_ip_publico]:[porta-para-acesso]</span >
+    <span >6: Para verificar: [http://[dns-ipv4-publico]:[porta-para-acesso]</span >
+    <br >
+    <br >
+    &nbsp;&nbsp; - Exemplo: <b ><i style="color: forestgreen" >http://ec2-01-001-01-001.compute-1.amazonaws.com:8080</i ></b >
   </div >
   <hr/>
 </div >
