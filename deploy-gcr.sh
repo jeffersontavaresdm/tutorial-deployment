@@ -21,4 +21,5 @@ gcloud run deploy deployment-test \
   --memory 128Mi \
   --cpu 1 \
   --concurrency 1 \
-  --port 80
+  --port 80 \
+  --region us-central1
