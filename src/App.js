@@ -2,22 +2,33 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{
-      textAlign: "center",
-      marginTop: "100px"
-    }} >
-      <h1 style={{ fontSize: "50px" }} >Tutorial: Deployment em uma máquina EC2 da AWS</h1 >
+    <div style={{ marginTop: "10%", marginLeft: "10%" }} >
+      <h1 style={{ fontSize: "50px" }} >
+        Tutorial de como fazer um deploy simples e prático!
+      </h1 >
       <br />
-      <h3 style={{ fontSize: "40px" }} >
-        Leia o&nbsp;
-        <a
-          href="https://github.com/jeffersontavaresdm/deploy-tutorial-aws/blob/main/README.md"
-          target={"_blank"}
-          rel="noreferrer"
-        >
-          README.md
-        </a >
-      </h3 >
+      <div style={{ fontSize: "40px" }} >
+        <span >
+          Leia o&nbsp;
+          <strong >
+          <a
+            href="https://github.com/jeffersontavaresdm/deploy-tutorial-aws/blob/main/README.md"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            README.md
+          </a >
+        </strong > para:
+        </span >
+        <ul >
+          <li style={{ marginBottom: "10px" }} >
+            Aprender como fazer o deploy em uma máquina <b >EC2</b > da <b >AWS</b >
+          </li >
+          <li >
+            Aprender como fazer o deploy utilizando o <b >Google Cloud Run</b >
+          </li >
+        </ul >
+      </div >
     </div >
   );
 }
