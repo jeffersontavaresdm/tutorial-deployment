@@ -84,7 +84,6 @@
     Tutorial: Deployment utilizando Google Cloud Run
   </h1 >
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
-    <hr >
     <div >
       <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
       <ul >
@@ -168,6 +167,5 @@
       <br >
     </div >
     <hr />
-    <br >
   </div >
 </div >
