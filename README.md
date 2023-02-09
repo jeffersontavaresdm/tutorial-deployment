@@ -83,6 +83,8 @@
   <h1 align="center" >
     Tutorial: Deployment utilizando Google Cloud Run
   </h1 >
+  <br>
+  <br>
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <div >
       <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
