@@ -3,6 +3,21 @@
   <h1 align="center" >
     Tutorial: Deployment em uma máquina EC2 da AWS
   </h1 >
+  <div style="width: 70%; margin-left: 200px; margin-top: 50px">
+    <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
+    <ul >
+      <li >
+        <span >Este é um tutorial simples para criar um serviço no Google Cloud Run.</span >
+      </li >
+      <li >
+        <span >Ele explica como desenvolver e implantar uma imagem Docker em Cloud Run.</span >
+      </li >
+      <li >
+        <span >Este tutorial não aborda questões de segurança ou outras configurações avançadas.</span >
+      </li >
+    </ul >
+    <hr>
+  </div>
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
     <ul >
@@ -86,18 +101,6 @@
   <br>
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <div >
-      <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
-      <ul >
-        <li >
-          <span >Este é um tutorial simples para criar um serviço no Google Cloud Run.</span >
-        </li >
-        <li >
-          <span >Ele explica como desenvolver e implantar uma imagem Docker em Cloud Run.</span >
-        </li >
-        <li >
-          <span >Este tutorial não aborda questões de segurança ou outras configurações avançadas.</span >
-        </li >
-      </ul >
       <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
       <ul >
         <li >
