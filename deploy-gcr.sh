@@ -2,17 +2,17 @@
 
 # Para rodar este script, é necessário ter as seguintes ferramentas instaladas no seu sistema:
 #
-# ∙ gcloud (Google Cloud SDK)
-# ∙ Docker
-# ∙ npm (Node Package Manager)
+# • gcloud (Google Cloud SDK)
+# • Docker
+# • npm (Node Package Manager)
 #
 # Além disso, você também precisa estar logado em sua conta do Google Cloud e ter acesso a um projeto no Google Cloud.
 #
 # Se não tem a SDK instalada e/ou não tem um projeto no Google Cloud, siga estes passos:
 #
-# ∙ Instale a SDK do Google Cloud: Siga as instruções para instalar a SDK em "https://cloud.google.com/sdk/docs/install".
-# ∙ Inicie sessão na sua conta do Google Cloud: Execute o seguinte comando no terminal: gcloud auth login
-# ∙ Crie o projetono Google Cloud: gcloud projects create nome-do-projeto
+# • Instale a SDK do Google Cloud: Siga as instruções para instalar a SDK em "https://cloud.google.com/sdk/docs/install".
+# • Inicie sessão na sua conta do Google Cloud: Execute o seguinte comando no terminal: gcloud auth login
+# • Crie o projetono Google Cloud: gcloud projects create nome-do-projeto
 #
 # Depois de garantir que você possui todas as ferramentas necessárias,
 # basta rodar o script no terminal ou no console do seu sistema operacional.
