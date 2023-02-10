@@ -14,8 +14,7 @@
 # • Inicie sessão na sua conta do Google Cloud: Execute o seguinte comando no terminal: gcloud auth login
 # • Crie o projetono Google Cloud: gcloud projects create nome-do-projeto
 #
-# Depois de garantir que você possui todas as ferramentas necessárias,
-# basta rodar o script no terminal ou no console do seu sistema operacional.
+# Depois de garantir que você possui todas as ferramentas necessárias basta rodar o script no terminal.
 
 # PS: Não esquecer de trocar [seu_email@email.com] pelo seu email e [PROJECT_ID] pelo id do projeto.
 
@@ -42,9 +41,11 @@ gcloud auth configure-docker
 
 # Constroi uma imagem Docker a partir dos arquivos atuais do diretório corrente (./).
 #
-# A opção -t especifica o nome da imagem e a imagem será nomeada como "nome-da-imagem".
+# A opção "-t" especifica o nome da imagem e a tag.
+# No caso, o nome da imagem será "gcr.io/PROJECT_ID/nome-da-imagem" e a tag será "latest".
 #
-# O ponto no final indica que a construção da imagem será feita a partir dos arquivos no diretório atual.
+# O ponto e barra (./) no final indica que a construção da imagem será feita a partir dos arquivos no diretório atual.
+# Se você tiver um arquivo Dockerfile no diretório atual, o Docker usará ele para construir a imagem.
 docker build -t gcr.io/PROJECT_ID/nome-da-imagem:latest ./
 
 # Publicar a imagem no GCR (Google Container Registry)
