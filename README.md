@@ -174,9 +174,8 @@
       </ul >
       <br >
       <span >
-        Com esses passos fáceis e simples, você já pode ter o seu próprio serviço rodando no <b >Google Cloud Run</b >!
-        <br>
-        Para verificar, no console na aba de serviços tem a <b >URL</b > para utilizar no <b >browser</b >.
+        Com estes passos claros e simples, você pode facilmente colocar o seu aplicativo em funcionamento no <b>Google Cloud Run</b>!
+        Para verificar o resultado, basta acessar o console na aba de serviços e encontrar a <b>URL</b> fornecida para inserir no seu navegador.
       </span >
       <br >
       <br >
