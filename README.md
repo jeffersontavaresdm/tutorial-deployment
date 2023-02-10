@@ -1,7 +1,8 @@
 <div style="width: 100%; height: 100%" >
-  <h1 align="center">
+  <h1 align="center" >
     Tutorial para um deploy simples e prático
   </h1 >
+  <br/>
   <div style="width: 70%; margin-left: 200px; margin-top: 50px">
     <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
     <ul >
@@ -26,6 +27,7 @@
     </ul >
     <hr>
   </div>
+  <h2 align="center" >Amazon Web Services (AWS)</h2 >
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
     <ul >
@@ -103,10 +105,7 @@
     <hr />
   </div >
   <!-------------------------------------------------------------------------------------------------------------->
-  <h1 align="center" >
-    Tutorial: Deployment utilizando Google Cloud Run
-  </h1 >
-  <br>
+  <h2 align="center" >Google Cloud</h2 >
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <div >
       <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
