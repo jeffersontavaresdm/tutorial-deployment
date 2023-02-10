@@ -98,6 +98,18 @@
           <span >Este tutorial não aborda questões de segurança ou outras configurações avançadas.</span >
         </li >
       </ul >
+      <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
+      <ul >
+        <li >
+          <b >Servidor:</b > NGINX
+        </li >
+        <li >
+          <b >Aplicação:</b > React
+        </li >
+        <li >
+          <b >Plataforma:</b > Google Cloud Run
+        </li >
+      </ul >
     </div >
     <hr >
     <br >
