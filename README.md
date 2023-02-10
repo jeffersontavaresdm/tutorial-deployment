@@ -49,9 +49,9 @@
     <ul >
       <li >npm install</li >
       <li >npm run build</li >
-      <li >docker build -t [repositorio] .</li >
-      <li >docker tag [repositorio]:[versao] [usuario/repositorio]</li >
-      <li >docker push [usuario/repositorio:versao]</li >
+      <li >docker build -t [nome-da-imagem] .</li >
+      <li >docker tag [nome-da-imagem]:[versao] [nome-do-usuario/nome-da-imagem]</li >
+      <li >docker push [nome-do-usuario/nome-da-imagem:versao]</li >
     </ul >
     <span >4: Acessar a máquina via <b >ssh</b >.</span >
     <br >
@@ -69,8 +69,8 @@
     <ul >
       <li >sudo apt-get update</li >
       <li >sudo apt-get install -y docker.io</li >
-      <li >sudo docker pull [usuario/repositorio]</li >
-      <li >sudo docker run -p [porta-para-acesso]:[porta-exposta] [usuario/repositorio]</li >
+      <li >sudo docker pull [nome-do-usuario/nome-da-imagem]</li >
+      <li >sudo docker run -p [porta-para-acesso]:[porta-exposta] [nome-do-usuario/nome-da-imagem]</li >
     </ul >
     <span >6: Para verificar: [http://[dns-ipv4-publico]:[porta-para-acesso]</span >
     <br >
@@ -108,9 +108,9 @@
       <ul >
         <li >npm install</li >
         <li >npm run build</li >
-        <li >docker build -t [repositorio] .</li >
-        <li >docker tag [repositorio]:[versao] [usuario/repositorio]</li >
-        <li >docker push [usuario/repositorio:versao]</li >
+        <li >docker build -t [nome-da-imagem] .</li >
+        <li >docker tag [nome-da-imagem]:[versao] [nome-do-usuario/nome-da-imagem]</li >
+        <li >docker push [nome-do-usuario/nome-da-imagem:versao]</li >
       </ul >
     </div >
     <br >
