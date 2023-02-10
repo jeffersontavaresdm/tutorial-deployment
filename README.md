@@ -1,20 +1,28 @@
 <div style="width: 100%; height: 100%" >
-  <br >
-  <h1 align="center" >
-    Tutorial: Deployment em uma máquina EC2 da AWS
+  <h1 align="center">
+    Tutorial para um deploy simples e prático
   </h1 >
   <div style="width: 70%; margin-left: 200px; margin-top: 50px">
     <span ><b >Alguns pontos devem ser levados em consideração, que são:</b ></span >
     <ul >
-      <li >
-        <span >Este é um tutorial simples para criar um serviço no Google Cloud Run.</span >
+      <li style="margin-bottom: 10px">
+        <span >
+            Este tutorial é um guia para implantar uma aplicação em:
+            <br>
+            - uma máquina <b>EC2</b> da <b>Amazon Web Services (AWS)</b>.
+            <br>
+            - na plataforma <b>Google Cloud Run</b>.
+        </span >
       </li >
-      <li >
-        <span >Ele explica como desenvolver e implantar uma imagem Docker em Cloud Run.</span >
-      </li >
-      <li >
-        <span >Este tutorial não aborda questões de segurança ou outras configurações avançadas.</span >
-      </li >
+      <li style="margin-bottom: 10px">
+        Este tutorial explica como desenvolver uma imagem <b>Docker</b> da aplicação e implantá-la em sua plataforma de nuvem escolhida.
+      </li>
+      <li style="margin-bottom: 10px">
+        É importante destacar que este tutorial não cobre questões de <b>segurança</b> ou <b>configurações avançadas</b>.
+      </li>
+      <li style="margin-bottom: 10px">
+        Este tutorial é apenas um <b><i>ponto de partida</i></b> para a implantação de sua aplicação em nuvem e pode ser usado como uma <b>referência</b> para futuros projetos.
+      </li>
     </ul >
     <hr>
   </div>
