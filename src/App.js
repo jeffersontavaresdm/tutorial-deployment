@@ -12,7 +12,7 @@ function App() {
           Leia o&nbsp;
           <strong >
           <a
-            href="https://github.com/jeffersontavaresdm/deploy-tutorial-aws/blob/main/README.md"
+            href="https://github.com/jeffersontavaresdm/tutorial-deployment/blob/main/README.md"
             target={"_blank"}
             rel="noreferrer"
           >
