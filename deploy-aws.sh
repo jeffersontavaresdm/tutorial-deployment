@@ -10,5 +10,5 @@ sudo apt-get install -y docker.io
 sudo docker pull nome-do-usuario/nome-da-imagem
 
 # Iniciar uma instância do container Docker com a imagem "nome-do-usuario/nome-da-imagem"
-# e configurar para escutar na porta 9000
+# e configurar para escutar na porta 80
 sudo docker run -p 80:80 nome-do-usuario/nome-da-imagem

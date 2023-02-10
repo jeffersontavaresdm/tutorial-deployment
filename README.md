@@ -170,5 +170,7 @@
       <br >
     </div >
     <hr />
+    <h3>PS: Não esquecer de trocar [nome-do-usuario] pelo nome da sua conta no Docker Hub.</h3>
+    <hr />
   </div >
 </div >
