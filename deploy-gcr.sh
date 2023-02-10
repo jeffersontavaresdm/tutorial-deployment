@@ -17,8 +17,10 @@
 # Depois de garantir que você possui todas as ferramentas necessárias,
 # basta rodar o script no terminal ou no console do seu sistema operacional.
 
+# PS: Não esquecer de trocar [seu_email@email.com] pelo seu email e [PROJECT_ID] pelo id do projeto.
+
 # Configurar o gcloud para usar a conta de usuário e o projeto corretos
-gcloud config set account seu_email@gmail.com
+gcloud config set account seu_email@email.com
 gcloud config set project PROJECT_ID
 
 # Remove os diretórios "node_modules" e "build" no ambiente de build.

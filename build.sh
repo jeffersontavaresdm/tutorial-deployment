@@ -2,6 +2,8 @@
 
 # Script para ser utilizado na máquina local para a criação da imagem e armazenar a mesma em um registry (Docker Hub).
 
+# PS: Não esquecer de trocar [nome-do-usuario] pelo nome da sua conta no Docker Hub.
+
 # Remove os diretórios "node_modules" e "build" no ambiente de build.
 rm -rf node_modules build
 
@@ -25,11 +27,11 @@ docker build -t nome-da-imagem ./
 
 # Adiciona uma nova tag à imagem "deploy-app-gcr" que foi construída na etapa anterior.
 #
-# A nova tag é "repositorio/nome-da-imagem",
-# que especifica o nome do repositório e o nome da imagem na plataforma Docker Hub.
-docker tag nome-da-imagem:latest repositorio/nome-da-imagem
+# A nova tag é "nome-do-usuario/nome-da-imagem",
+# que especifica o nome do usuário e o nome da imagem na plataforma Docker Hub.
+docker tag nome-da-imagem:latest nome-do-usuario/nome-da-imagem
 
 # Envia a imagem tagada para o Docker Hub, fazendo com que a imagem esteja disponível para ser baixada em outros locais.
 #
 # A tag "latest" especifica que esta é a versão mais recente da imagem.
-docker push repositorio/nome-da-imagem:latest
+docker push nome-do-usuario/nome-da-imagem:latest
