@@ -130,7 +130,7 @@
       <ul >
         <li >npm install</li >
         <li >npm run build</li >
-        <li >docker build -t [nome-da-imagem] .</li >
+        <li >docker build -t [nome-da-imagem]:[versao] .</li >
         <li >docker tag [nome-da-imagem]:[versao] [nome-do-usuario/nome-da-imagem]</li >
         <li >docker push [nome-do-usuario/nome-da-imagem:versao]</li >
       </ul >
