@@ -105,7 +105,7 @@
     <hr />
   </div >
   <!-------------------------------------------------------------------------------------------------------------->
-  <h2 align="center" >Google Cloud</h2 >
+  <h2 align="center" >Google Cloud Run</h2 >
   <div style="width: 70%; margin-top: 50px; margin-left: 200px" >
     <div >
       <h3 >O tutorial mostra como fazer um deployment prático utilizando:</h3 >
