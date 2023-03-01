@@ -125,7 +125,7 @@
     <br >
     <div >
       <span >
-        Siga estes passos criar e armazenar a imagem no <b ><a href="https://hub.docker.com" >Docker Hub</a ></b >:
+        Siga estes passos para criar e armazenar a imagem no <b ><a href="https://hub.docker.com" >Docker Hub</a ></b >:
       </span >
       <ul >
         <li >npm install</li >
