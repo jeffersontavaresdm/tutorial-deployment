@@ -176,9 +176,20 @@
         </li >
         <li style="margin-bottom: 10px" >
         <span >
-          Por ultimo, escolha a opção <b >Allow unauthenticated invocations</b >,
+          Escolha a opção <b >Allow unauthenticated invocations</b >,
           que diz <i >"Check this if you are creating a public API or website"</i >
           para que qualquer pessoa possa acessar o serviço sem precisar se autenticar ou fornecer informações de autenticação.
+        </span >
+        </li >
+        <li style="margin-bottom: 10px" >
+        <span >
+          No final, clique na setinha onde tem escrito <b >Container, Networking, Security</b >
+          e onde tem escrito <b >Container port</b > coloque a mesma porta exposta no arquivo Dockerfile (no exemplo do nosso arquivo, a porta exposta é 80).
+        </span >
+        </li >
+        <li style="margin-bottom: 10px" >
+        <span >
+          Por fim, clique em <b >Create</b > para criar o serviço.
         </span >
         </li >
       </ul >
