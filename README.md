@@ -148,7 +148,9 @@
         </span >
         </li >
         <li style="margin-bottom: 10px" >
-          <span >Clique em <b >Navigation Menu</b > no canto superior esquerdo.</span >
+          <span >
+            Clique em <b>Navigation Menu</b> (os 3 tracinhos que forma um "<i>hamburguerzinho</i>") no canto superior esquerdo.
+          </span >
         </li >
         <li style="margin-bottom: 10px" >
           <span >Clique em <b >Cloud Run</b >.</span >
@@ -159,26 +161,26 @@
         <li style="margin-bottom: 10px" >
         <span >
           Em <i >"Deploy one revision from an existing container image"</i >
-          coloque a <b >URL</b > da imagem docker do <b >Docker Hub</b >.
+          coloque a <b >URL</b > da imagem docker do <b >Docker Hub</b > que acabamos de criar 
+          (no formato <i>[nome-do-usuario/nome-da-imagem:versao]</i>).
         </span >
         </li >
         <li style="margin-bottom: 10px" >
-          <span >Em <b >Service name</b > coloque o nome do serviço que desejar.</span >
+          <span >Em <b >Service name</b > coloque o nome que desejar para o serviço.</span >
         </li >
         <li style="margin-bottom: 10px" >
           <span >Escolha a região em <b >Region</b >.</span >
         </li >
         <li style="margin-bottom: 10px" >
         <span >
-          Escolha a opção <b >All</b > onde diz <i >"Allow direct access to your service from the internet"</i >
-          para que qualquer pessoa com internet possa acessar o serviço.
+          Escolha a opção <b>All</b> em <i>"Allow direct access to your service from the internet"</i>,
+          para permitir que qualquer pessoa possa acessar o serviço.
         </span >
         </li >
         <li style="margin-bottom: 10px" >
         <span >
-          Escolha a opção <b >Allow unauthenticated invocations</b >,
-          que diz <i >"Check this if you are creating a public API or website"</i >
-          para que qualquer pessoa possa acessar o serviço sem precisar se autenticar ou fornecer informações de autenticação.
+          Escolha a opção <b>Allow unauthenticated invocations</b>, para permitir que qualquer pessoa possa acessar o serviço
+          sem precisar se autenticar ou fornecer informações de <b>autenticação</b>.
         </span >
         </li >
         <li style="margin-bottom: 10px" >
