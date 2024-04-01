@@ -1,6 +1,6 @@
 <div style="width: 100%; height: 100%" >
   <h1 align="center" >
-    Tutorial para um deploy simples e prático
+    Tutorial para um deploy simples e prático utilizando o serviço Google Cloud Run
   </h1 >
   <br/>
   <div style="width: 70%; margin-left: 200px; margin-top: 50px">
