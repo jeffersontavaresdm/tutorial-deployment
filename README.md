@@ -8,7 +8,7 @@
     <ul >
       <li style="margin-bottom: 10px">
         <span >
-            Este tutorial é um guia para implantar uma aplicação em:
+            Este tutorial é um guia para implantar uma aplicação em 2 plataformas (AWS e GCP) utilizando:
             <br>
             - uma máquina <b>EC2</b> da <b>Amazon Web Services (AWS)</b>.
             <br>
